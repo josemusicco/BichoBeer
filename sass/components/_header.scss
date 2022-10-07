@@ -1,0 +1,25 @@
+@import '../base/colors';
+@import '../base/listas';
+
+header{
+    .navbar {
+        font-style: italic;
+        --bs-navbar-hover-color:firebrick ;
+        --bs-navbar-toggler-border-color: white;
+        padding: nth($encabezados, 2 );
+    }
+    
+    .navbar-nav {
+        --bs-nav-link-color: lightyellow;
+        overflow: hidden;
+        font-size: nth($encabezados , 4);
+    }
+    .icono-lagashbeer {
+        width: 170px;
+        transition: all 1.5s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    
+}

@@ -1,0 +1,12 @@
+
+@mixin medidas($width, $margin) {
+    width:$width ;
+    margin:$margin ;
+}
+
+.form-img img{
+    @include medidas(90%, auto )
+}
+.gallery-img {
+  @include medidas(24rem, auto )
+}

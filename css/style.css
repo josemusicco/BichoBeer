@@ -1,0 +1,214 @@
+header .navbar {
+  font-style: italic;
+  --bs-navbar-hover-color:firebrick ;
+  --bs-navbar-toggler-border-color: white;
+  padding: 1rem;
+}
+header .navbar-nav {
+  --bs-nav-link-color: lightyellow;
+  overflow: hidden;
+  font-size: 30px;
+}
+header .icono-lagashbeer {
+  width: 170px;
+  transition: all 1.5s;
+}
+header .icono-lagashbeer:hover {
+  transform: scale(1.2);
+}
+
+main .text-conteiner {
+  font-size: 30px;
+  color: firebrick;
+  text-align: center;
+}
+main h1 {
+  font-size: 2.2rem;
+}
+main .text {
+  display: inline;
+  font-size: 25px;
+  color: lightyellow;
+}
+main .gallery-conteiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  gap: 2rem;
+}
+main .gallery-item {
+  display: flex;
+  justify-content: center;
+  transition: all 1.6s;
+}
+main .gallery-item:hover {
+  transform: translate(15px, 25px);
+}
+
+main hr {
+  margin: 1rem;
+  color: black;
+  border: black;
+  border-top: 5px solid;
+}
+main .ofertas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+main .cervezas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+main .card-body{
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+main .barriles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+main .barril-img1, main .barril-img2 {
+  width: 350px;
+  transition: all 1.5s;
+}
+main .barril-img1:hover, main .barril-img2:hover {
+  transform: translate(10px, 15px);
+}
+main .text-ventas {
+  text-align: center;
+  font-size: 22px;
+  font-style: oblique;
+  color:white;
+  padding: 1rem;
+}
+@media screen and (max-width: 800px) {
+  main .gallery-conteiner {
+    display: none;
+  }
+  main .barriles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 1rem;
+  }
+}
+footer .iconos {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-right: 2rem;
+}
+footer .icono-items {
+  width: 30px;
+  height: 30px;
+  transition: all 2s;
+}
+footer .icono-items:hover {
+  transform: scale(2);
+}
+
+.text, .text-conteiner {
+  font-style: italic;
+  padding: 1rem;
+}
+
+.form-img img {
+  width: 90%;
+  margin: auto;
+}
+
+.gallery-img {
+  width: 24rem;
+  margin: auto;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../multimedia/fotos/fondo.jpg);
+  background-size: 100%;
+}
+
+.disclaimer {
+  display: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+input{
+  color:#000;
+}
+
+.row{
+gap: 1.4rem;
+justify-content: center;
+}
+.card{
+  background-color: transparent;
+  align-items: center;
+  width: 16rem;
+  border: none;
+}
+.card-title{
+color: firebrick;
+font-size: 2rem;
+}
+.card-text{
+  color: white;
+}
+.imagen{
+  width: 16rem;
+  transition: all 1.5s;
+}
+.imagen:hover{
+  transform: scale(1.1);
+}
+.btn{
+  background-color: firebrick;
+  border: firebrick;
+}
+.btn-primary{
+  --bs-btn-hover-bg:#dc3545;
+  --bs-btn-border-color:#dc3545;
+  --bs-btn-hover-border-color:#dc3545;
+  --bs-btn-active-bg:#dc3545;
+  --bs-btn-active-border-color:#dc3545;
+  --bs-btn-disabled-bg:#dc3545;
+  --bs-btn-disabled-border-color:#dc3545;
+}
+table thead {
+  background:#302b63;
+  color:white;
+}
+.text-right{
+  color: black;
+}
+.text-right2{
+  color: black;
+  font-size: 30px;
+  font-style: italic;
+}
+.text-carro{
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

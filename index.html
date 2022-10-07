@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- meta description -->
+  <meta name="description" content="somos una cervezeria artesanal de concepcion del uruguay">
+   <!-- kw -->
+   <meta name="keywords" content="Cervezas,comidas,concepcion del uruguay,entretenimiento">
+     <!-- protocolo open graph -->
+     <meta property="og:title" content="BichoBeer">
+     <meta property="url" content="https:www.BichoBeer.com/contacto">
+     <meta property="og:descripcion" content="Cervezas,comidas,concepcion del uruguay,entretenimiento">
+
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+     <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Bicho Beer</title>
+
+</head>
+
+<body>
+   <!-- inicio header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-lightnavbar-light">
+      <div class="container d-flex">
+        <a class="navbar-brand me-auto" href="index.html"><img class="icono-BichoBeer"
+            src="multimedia/fotos/cooltext412752875002791.png" alt="icono de BichoBeer"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Ventas.html">Ventas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cervezas.html">Cervezas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+   <!-- fin header -->
+  <!-- inicio main -->
+  <main>
+  <div class="text-conteiner">
+    <h1>Abrimos de miercoles a domingos de 20:30hs a 03hs am</h1>
+    <p class="text">los esperamos para disfrutar con nosotros de una buena birra<br>
+      nos ubicamos en fray mocho y zaninetti<br>
+    </p>
+  </div>
+  <section>
+    <div class="gallery-conteiner">
+      <div class="gallery-item"><img src="multimedia/fotos/67095267_393088104885775_302889248658484069_n.jpg"
+          alt="copas de cerveza - pintas artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/118589402_316626972876769_4031874233689605757_n.jpg"
+          alt="imagen de gente afuera de lagash compartiendo una cerveza artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/66465521_1258054214366482_237905446780676448_n.jpg"
+          alt="copa de cerveza-pinta artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/lagash.jpg"
+          alt="copa y vaso de cerveza artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/cerveza9.jpg"
+          alt="copa de cerveza artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src=" multimedia/fotos/165334920_863533524492603_4714995913677444251_n.jpg"
+          alt="vaso de cerveza Artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/66670904_401819510677273_1403990092837088447_n.jpg"
+          alt="vaso de cerveza artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/122192086_268119101218088_4689168102330596433_n.jpg"
+          alt="copa de cerveza artesanal" class="gallery-img"></div>
+      <div class="gallery-item"><img src="multimedia/fotos/119880855_3404815466207448_4592632355942878271_n.jpg"
+          alt="copa de cerveza artesanal" class="gallery-img"></div>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="text-conteiner">
+      <h2>Ofertas Semanales</h1>
+        <div class="container">
+          <div class="row">
+              <!-- Elementos generados a partir del JSON -->
+              <main id="items" class="col-sm-8 row"></main>
+              <!-- Carrito -->
+              <aside class="col-sm-4">
+                  <h2>Carrito</h2>
+                  <!-- Elementos del carrito -->
+                  <ul id="carrito" class="list-group"></ul>
+                  <hr>
+                  <!-- Precio total -->
+                  <p class="text-right">Total: <span id="total"></span>&dollar;</p>
+                  <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                  <button id="boton-comprar" class="btn btn-danger">Comprar</button>
+              </aside>
+          </div>
+        </div>
+      <p class="text">Ademas todos los jueves de cada mes 2x1 en cervezas hasta las 00hs<p> </div>
+  </section>
+  <hr> 
+</main>
+<!-- fin main -->
+<!-- inicio footer -->
+  <footer>
+    <ul class="iconos">
+      <li>
+        <a href="https://www.instagram.com" target="_blank">
+          <img class="icono-items" src="multimedia/fotos/instagram.png" alt="icono de instagram">
+        </a>
+      </li>
+      <li>
+        <a href="https://web.whatsapp.com" target="_blank">
+          <img class="icono-items" src="multimedia/fotos/whatsapp.png" alt="icono de whatsapp">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com" target="_blank">
+          <img class="icono-items" src="multimedia/fotos/facebook.png" alt="icono de facebook">
+        </a>
+      </li>
+      <li>
+        <a href="#" target="_blank">
+          <img class="icono-items" src="multimedia/fotos/gmail.png" alt="icono de gmail">
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank">
+          <img class="icono-items" src="multimedia/fotos/gorjeo.png" alt="icono de twitter">
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!-- fin footer -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="JS/script.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

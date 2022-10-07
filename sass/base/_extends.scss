@@ -1,0 +1,12 @@
+
+%text{
+    font-style: italic;
+    padding: 1rem;
+}
+
+.text-conteiner{
+    @extend %text;
+}
+.text{
+    @extend %text;
+}

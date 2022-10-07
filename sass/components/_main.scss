@@ -1,0 +1,95 @@
+@import '../base/listas';
+
+
+
+main{
+    .text-conteiner {
+        font-size: nth($encabezados, 4 );
+        color:nth($colores , 2 );
+        text-align: center;  
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    
+    .text {
+        display: inline;
+        font-size: nth($encabezados, 5 );
+        color: nth($colores , 3 );
+    }
+    .gallery-conteiner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: nth($encabezados, 2 );
+        gap: 2rem;
+     
+    }
+    .gallery-item{
+        display: flex;
+        justify-content: center;
+        transition: all 1.6s;
+        &:hover{
+            transform: translate(15px, 25px);
+        }
+
+    }
+    
+    .card{
+        width: 18rem;
+        transition: all 1.5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    hr {
+        margin: nth($encabezados, 2 );
+        color: nth($colores ,4 );
+        border: nth($colores , 4 );
+        border-top: 5px solid;
+    }
+    .row {
+        padding-left:nth($encabezados, 1 );
+        padding-right:nth($encabezados, 1 );
+        gap: 1rem;
+    }
+    
+    .barriles{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:nth($encabezados, 2 ) ;
+    }
+    .barril-img1, .barril-img2{
+        width: 350px;
+        transition: all 1.5s;
+        &:hover{
+            transform: translate(10px,15px);
+        }
+    }
+    .text-ventas{
+        text-align: center;
+        font-size: nth($encabezados, 6 );
+        font-style:oblique;
+        color:nth($encabezados, 3 );
+        padding: nth($encabezados, 2 );
+    }
+    
+    @media screen and (max-width: 800px) {
+        .row {
+            width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+            margin: auto;
+            justify-content: center;
+        }
+        .gallery-conteiner{
+            display: none;
+        }
+        .barriles{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin:auto;
+            gap: 1rem;
+        }
+}
+}

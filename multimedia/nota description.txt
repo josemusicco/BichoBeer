@@ -1,0 +1,12 @@
+Stefa como te va, te dejo el trabajo aplicando los visto en sass y seo.
+
+Utilice meta description, keywords y de protocolo open graph (titulo, url y descripcion)
+tambien aplique el ALT a todas las imagenes que no tenia.
+
+En las cuales explique mediante descripciones y palabras importantes un poco de lo que somos en lagash.
+
+Ademas extendi el sass a toda la pag utilizando componentes(header,main,footer etc)
+
+ y bases como por ejemplo lista de colores fontsize, extends y mixins.
+
+Por ultimo termine de hacer unos cambios en minimos errores conceptuales.
